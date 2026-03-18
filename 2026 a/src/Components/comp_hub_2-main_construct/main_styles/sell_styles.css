@@ -1,0 +1,150 @@
+:root{
+    --sell_box_width: 80vw;
+    --sell_box_height: 140px;
+}
+.sell_box{
+    height: var(--sell_box_height);
+    width: var(--sell_box_width);
+    margin: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(201, 201, 201);
+    background:linear-gradient(white,whitesmoke);  
+    border-top: none;      
+    cursor: pointer;
+}
+.sell_box img , .wait_img{
+    position: absolute;
+    height:calc(var(--sell_box_height)/1.1) ;
+    width:calc(var(--sell_box_height)/1.1) ;
+    transform: translate(-20px,-15px);
+    object-fit: cover;
+    border-radius: 3px;
+    /* border: 1px solid rgb(201, 201, 201);
+    border-right: none;
+    border-bottom: none; */
+    box-shadow: 1px 1px 5px 1px rgb(228, 228, 228);
+}
+.sell_box .sell_title{
+position: absolute;
+transform: translate(calc(var(--sell_box_height)/1.2) , 10px);
+font-size: var(--font-BUTTON-SIZE);
+}
+.sell_box .sell_price{
+    position: absolute;
+    transform: translate(calc(var(--sell_box_width) - 110%) , 10px);
+color: rgb(0, 101, 0);
+text-align: center;
+font-size: var(--font-BUTTON-SIZE);
+}
+.sell_box .sell_disc{
+    position: absolute;
+    max-width: calc(var(--sell_box_width) - var(--sell_box_height)/1.1 - 5px);
+    transform: translate(calc(var(--sell_box_height)/1.2) ,calc( var(--sell_box_height) / 4));
+    font-size: var(--font-PARA-SIZE);
+    display : -webkit-box ;
+    -webkit-line-clamp: 3 ;
+    -webkit-box-orient :vertical;
+    overflow:hidden;
+}
+.sell_box .sell_msg{
+    position: absolute;
+    text-align: center;
+    transform: translate(calc(var(--sell_box_width) - 115%) ,calc( var(--sell_box_height) / 1.3)); 
+    font-size: var(--font-PARA-SIZE);
+    
+}
+.sell_box .comment{
+    position: absolute;
+    transform: translate(calc(var(--sell_box_width) / 1.15) ,calc( var(--sell_box_height) / 1.6)); 
+    cursor: pointer;
+}
+.sell_box .save{
+    position: absolute;
+    transform: translate(calc(var(--sell_box_width) / 1.3) ,calc( var(--sell_box_height) / 1.6)); 
+    cursor: pointer;
+}
+.sc-03{
+    scale: 0.4;
+}
+
+
+
+.gradient-wait {  
+      color: transparent !important;
+      position: absolute;
+      transition: none;
+      background: linear-gradient(
+        60deg,
+        hsla(0, 0%, 82%),
+        hsla(0, 0%, 70%),
+        hsla(0, 0%, 78%),
+        hsla(0, 0%, 82%),
+        hsla(0, 0%, 70%),
+        hsla(0, 0%, 78%)
+      );
+      background-size: 300% 300%;
+      background-position: 0 50%;
+      border-radius: 2px ;
+      animation: moveGradient 1s alternate infinite;
+  }
+  
+  @keyframes moveGradient {
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  .mnr{
+    margin-top: 5px;
+  }
+
+
+
+
+@media (min-width:950px) {
+    :root{
+        --sell_box_width: 400px;
+        --sell_box_height: 150px;
+    }
+}
+@media (max-width:950px) {
+    .sell_box .sell_title{
+    transform: translate(calc(var(--sell_box_height)/1.2) , 10px);
+    }
+    .sell_box img{
+        position: absolute;
+        height:calc(var(--sell_box_height)/1.1) ;
+        width:calc(var(--sell_box_height)/1.1) ;
+    }
+    .sell_box .sell_price{
+    transform: translate(calc(var(--sell_box_width) / 2 - 10px) , 30px);
+    }
+    .sell_box .sell_msg{
+        transform: translate(calc(var(--sell_box_width) - 115%) ,calc( var(--sell_box_height) / 1.2)); 
+    }
+    .sell_box .sell_disc{
+        max-width: calc(var(--sell_box_width) - var(--sell_box_height)/1.2 - 10px);
+        transform: translate(calc(var(--sell_box_height)/1.2) ,calc( var(--sell_box_height) / 2.7));
+    }
+    .sell_box{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 8vw;
+    }
+    .sell_box .sell_msg{
+        position: absolute;
+        text-align: center;
+        transform: translate(calc(var(--sell_box_width) - 115%) ,calc( var(--sell_box_height) / 1.3)); 
+        font-size: var(--font-PARA-SIZE);
+        
+    }
+    .sell_box .comment{
+        position: absolute;
+        transform: translate(calc(var(--sell_box_width) / 1.2) ,calc( var(--sell_box_height) / 1.4)); 
+        cursor: pointer;
+    }
+    .sell_box .save{
+        position: absolute;
+        transform: translate(calc(var(--sell_box_width) / 1.38) ,calc( var(--sell_box_height) / 1.4)); 
+        cursor: pointer;
+    }
+}

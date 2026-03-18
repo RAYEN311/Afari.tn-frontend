@@ -1,0 +1,111 @@
+const img_loc_pub = '../src/assets/images/Afari_achat.png'
+// const img_loc_pub = 'https://rayweblistapi.000webhostapp.com/assets/2.png'
+
+
+export let buy_objects = [
+    {
+    'tit' : 'motor',
+    'dis' : 'Lorem ipsum tunisian motor with dark quality dolor sit amet consectetur adipisicing elit.',
+    'img': `${img_loc_pub}`,
+    'msg' : '',
+    'price': '220 TND',
+    },
+    {
+    'tit' : 'motor',
+    'dis' : 'Lorem ipsum tunisian motor with dark quality dolor sit amet consectetur adipisicing elit.',
+    'img': `${img_loc_pub}`,
+    'msg' : '',
+    'price': '220 TND',
+    },
+    {
+    'tit' : 'motor',
+    'dis' : 'Lorem ipsum tunisian motor with dark quality dolor sit amet consectetur adipisicing elit.',
+    'img': `${img_loc_pub}`,
+    'msg' : '',
+    'price': '220 TND',
+    },
+    {
+    'tit' : 'motor',
+    'dis' : 'Lorem ipsum tunisian motor with dark quality dolor sit amet consectetur adipisicing elit.',
+    'img': `${img_loc_pub}`,
+    'msg' : '',
+    'price': '220 TND',
+    },
+    {
+    'tit' : 'motor',
+    'dis' : 'Lorem ipsum tunisian motor with dark quality dolor sit amet consectetur adipisicing elit.',
+    'img': `${img_loc_pub}`,
+    'msg' : '',
+    'price': '220 TND',
+    },
+    {
+    'tit' : 'motor',
+    'dis' : 'Lorem ipsum tunisian motor with dark quality dolor sit amet consectetur adipisicing elit.',
+    'img': `${img_loc_pub}`,
+    'msg' : '',
+    'price': '220 TND',
+    },
+    {
+    'tit' : 'motor',
+    'dis' : 'Lorem ipsum tunisian motor with dark quality dolor sit amet consectetur adipisicing elit.',
+    'img': `${img_loc_pub}`,
+    'msg' : '',
+    'price': '220 TND',
+    },
+    {
+    'tit' : 'motor',
+    'dis' : 'Lorem ipsum tunisian motor with dark quality dolor sit amet consectetur adipisicing elit.',
+    'img': `${img_loc_pub}`,
+    'msg' : '',
+    'price': '220 TND',
+    },
+    {
+    'tit' : 'motor',
+    'dis' : 'Lorem ipsum tunisian motor with dark quality dolor sit amet consectetur adipisicing elit.',
+    'img': `${img_loc_pub}`,
+    'msg' : '',
+    'price': '220 TND',
+    },
+    {
+    'tit' : 'motor',
+    'dis' : 'Lorem ipsum tunisian motor with dark quality dolor sit amet consectetur adipisicing elit.',
+    'img': `${img_loc_pub}`,
+    'msg' : '',
+    'price': '220 TND',
+    },
+    {
+    'tit' : 'motor',
+    'dis' : 'Lorem ipsum tunisian motor with dark quality dolor sit amet consectetur adipisicing elit.',
+    'img': `${img_loc_pub}`,
+    'msg' : '',
+    'price': '220 TND',
+    },
+    {
+    'tit' : 'motor',
+    'dis' : 'Lorem ipsum tunisian motor with dark quality dolor sit amet consectetur adipisicing elit.',
+    'img': `${img_loc_pub}`,
+    'msg' : '',
+    'price': '220 TND',
+    },
+    {
+    'tit' : 'motor',
+    'dis' : 'Lorem ipsum tunisian motor with dark quality dolor sit amet consectetur adipisicing elit.',
+    'img': `${img_loc_pub}`,
+    'msg' : '',
+    'price': '220 TND',
+    },
+    {
+    'tit' : 'motor',
+    'dis' : 'Lorem ipsum tunisian motor with dark quality dolor sit amet consectetur adipisicing elit.',
+    'img': `${img_loc_pub}`,
+    'msg' : '',
+    'price': '220 TND',
+    },
+    {
+    'tit' : 'motor',
+    'dis' : 'Lorem ipsum tunisian motor with dark quality dolor sit amet consectetur adipisicing elit.',
+    'img': `${img_loc_pub}`,
+    'msg' : '',
+    'price': '220 TND',
+    },
+]
